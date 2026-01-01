@@ -1,0 +1,33 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Malware samples (NEVER commit these!)
+malware/*.exe
+malware/*.bin
+malware/*.dll
+
+# Output files (morphed samples)
+*.exe
+!target/**/*.exe
+*.bin
+!target/**/*.bin
+
+# Temporary files
+.tmp_*.exe
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cargo lock for binaries (keep it)
+# Cargo.lock
