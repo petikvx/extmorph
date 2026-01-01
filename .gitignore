@@ -3,11 +3,6 @@
 **/*.rs.bk
 *.pdb
 
-# Malware samples (NEVER commit these!)
-malware/*.exe
-malware/*.bin
-malware/*.dll
-
 # Output files (morphed samples)
 *.exe
 !target/**/*.exe
