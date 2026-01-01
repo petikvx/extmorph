@@ -5,8 +5,10 @@
 
 # Output files (morphed samples)
 *.exe
+!malware/*.exe
 !target/**/*.exe
 *.bin
+!malware/*.bin
 !target/**/*.bin
 
 # Temporary files
